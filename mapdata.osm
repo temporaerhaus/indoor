@@ -86,6 +86,8 @@
   <node id='-77120' action='modify' lat='48.39646229048' lon='9.99019256083' />
   <node id='-77144' action='modify' lat='48.39638883224' lon='9.99010115798' />
   <node id='-77146' action='modify' lat='48.39638285305' lon='9.99000625732' />
+  <node id='-77186' action='modify' lat='48.39651910987' lon='9.9900527308' />
+  <node id='-77214' action='modify' lat='48.39649358438' lon='9.99005564481' />
   <way id='-57095' action='modify'>
     <nd ref='-57096' />
     <nd ref='-57097' />
@@ -211,5 +213,16 @@
     <tag k='indoor' v='room' />
     <tag k='level' v='0' />
     <tag k='name' v='Mitte' />
+  </way>
+  <way id='-77187' action='modify'>
+    <nd ref='-70181' />
+    <nd ref='-77186' />
+    <nd ref='-77214' />
+    <nd ref='-70179' />
+    <nd ref='-70180' />
+    <nd ref='-70181' />
+    <tag k='indoor' v='room' />
+    <tag k='level' v='0' />
+    <tag k='name' v='Flur' />
   </way>
 </osm>

@@ -66,14 +66,12 @@
   <node id='-70098' action='modify' lat='48.39642673991' lon='9.9900176333' />
   <node id='-70099' action='modify' lat='48.39643468781' lon='9.99002742454' />
   <node id='-70100' action='modify' lat='48.39643907852' lon='9.99009365584' />
-  <node id='-70101' action='modify' lat='48.39645462329' lon='9.99009131015' />
-  <node id='-70102' action='modify' lat='48.39645472933' lon='9.99009290404' />
+  <node id='-70102' action='modify' lat='48.39645510303' lon='9.99009121557' />
   <node id='-70105' action='modify' lat='48.39647186186' lon='9.99008994347' />
   <node id='-70110' action='modify' lat='48.39646597708' lon='9.99019723184' />
   <node id='-70111' action='modify' lat='48.39647483146' lon='9.99019589572' />
   <node id='-70112' action='modify' lat='48.39647429923' lon='9.99018789525' />
   <node id='-70113' action='modify' lat='48.39647829558' lon='9.9901872922' />
-  <node id='-70115' action='modify' lat='48.39645522186' lon='9.99009279975' />
   <node id='-70116' action='modify' lat='48.39646244013' lon='9.99019467086' />
   <node id='-70117' action='modify' lat='48.39646577325' lon='9.99019416789' />
   <node id='-70179' action='modify' lat='48.39649216636' lon='9.99003807233' />
@@ -81,6 +79,13 @@
   <node id='-70181' action='modify' lat='48.39651774612' lon='9.99002396797' />
   <node id='-70182' action='modify' lat='48.39651542179' lon='9.98998694211' />
   <node id='-70184' action='modify' lat='48.39646872866' lon='9.99004143693' />
+  <node id='-76984' action='modify' lat='48.39642229284' lon='9.99009648205' />
+  <node id='-76986' action='modify' lat='48.39642781209' lon='9.99019675118' />
+  <node id='-77076' action='modify' lat='48.3964594328' lon='9.99019276812' />
+  <node id='-77096' action='modify' lat='48.39645966255' lon='9.99019504139' />
+  <node id='-77120' action='modify' lat='48.39646229048' lon='9.99019256083' />
+  <node id='-77144' action='modify' lat='48.39638883224' lon='9.99010115798' />
+  <node id='-77146' action='modify' lat='48.39638285305' lon='9.99000625732' />
   <way id='-57095' action='modify'>
     <nd ref='-57096' />
     <nd ref='-57097' />
@@ -168,9 +173,8 @@
     <nd ref='-70098' />
     <nd ref='-70099' />
     <nd ref='-70100' />
-    <nd ref='-70101' />
     <nd ref='-70102' />
-    <nd ref='-70115' />
+    <nd ref='-77120' />
     <nd ref='-70116' />
     <nd ref='-70117' />
     <nd ref='-70110' />
@@ -180,5 +184,32 @@
     <nd ref='-70105' />
     <tag k='indoor' v='room' />
     <tag k='level' v='0' />
+  </way>
+  <way id='-76983' action='modify'>
+    <nd ref='-70102' />
+    <nd ref='-70100' />
+    <nd ref='-76984' />
+    <nd ref='-76986' />
+    <nd ref='-77076' />
+    <nd ref='-77096' />
+    <nd ref='-70116' />
+    <nd ref='-77120' />
+    <nd ref='-70102' />
+    <tag k='indoor' v='room' />
+    <tag k='level' v='0' />
+    <tag k='name' v='Lötwerkstatt' />
+  </way>
+  <way id='-77143' action='modify'>
+    <nd ref='-70100' />
+    <nd ref='-76984' />
+    <nd ref='-77144' />
+    <nd ref='-77146' />
+    <nd ref='-70097' />
+    <nd ref='-70098' />
+    <nd ref='-70099' />
+    <nd ref='-70100' />
+    <tag k='indoor' v='room' />
+    <tag k='level' v='0' />
+    <tag k='name' v='Mitte' />
   </way>
 </osm>
